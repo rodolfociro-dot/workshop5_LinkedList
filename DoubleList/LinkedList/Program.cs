@@ -13,6 +13,7 @@ do
             Console.Write("Enter a value: ");
             value = Console.ReadLine() ?? string.Empty;
             list.Add(value);
+            Console.WriteLine($"Value '{value}' was added with exit");
             break;
 
         case "2":
