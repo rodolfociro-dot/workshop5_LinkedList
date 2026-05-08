@@ -13,7 +13,7 @@ do
             Console.Write("Enter a value: ");
             value = Console.ReadLine() ?? string.Empty;
             list.Add(value);
-            Console.WriteLine($"Value '{value}' was added with exit");
+            Console.WriteLine($"The Element '{value}' was added with exit");
             break;
 
         case "2":
@@ -49,7 +49,7 @@ do
         case "7":
             Console.Write("Enter a value to search: ");
             value = Console.ReadLine() ?? string.Empty;
-            Console.WriteLine(list.Exists(value) ? $" The value {value} exists." : $"The value {value} not found.");
+            Console.WriteLine(list.Exists(value) ? $" The element {value} exists." : $"The element {value} not found.");
             break;
 
         case "8":
